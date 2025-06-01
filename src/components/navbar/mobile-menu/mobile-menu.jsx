@@ -1,9 +1,9 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { isStoreSelected, isCartSelected } from "../../../utils/checkRoutes";
 import { TailSpin } from "react-loader-spinner";
-import { MainContext } from "utils/context";
+import { MainContext } from "../../../utils/context";
 import { useContext } from "react";
-import { signOutUser } from "utils/firebaseFunctions";
+import { signOutUser } from "../../../utils/firebaseFunctions";
 function MobileMenu({ closeFn }) {
   const { user, loading, cartProducts } = useContext(MainContext);
   const loc = useLocation();
