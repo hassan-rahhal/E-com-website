@@ -1,4 +1,4 @@
-import "./App.scss";
+import "./App.css";
 import Navbar from "components/navbar/navbar";
 import Store from "pages/store";
 import Cart from "pages/cart";
