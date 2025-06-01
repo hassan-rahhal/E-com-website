@@ -1,15 +1,15 @@
 import "./App.css";
-import Navbar from "components/navbar/navbar";
-import Store from "pages/store";
-import Cart from "pages/cart";
-import Authenticate from "pages/authenticate";
+import Navbar from "./components/navbar/navbar";
+import Store from "./pages/store";
+import Cart from "./pages/cart";
+import Authenticate from "./pages/authenticate";
 import { Routes, Route } from "react-router-dom";
 import { useAuthState } from "react-firebase-hooks/auth";
-import { auth, database } from "utils/firebaseConfig";
-import { MainContext } from "utils/context";
+import { auth, database } from "./utils/firebaseConfig";
+import { MainContext } from "./utils/context";
 import { useEffect, useState } from "react";
-import { fetchUserData, setupDBListener } from "utils/firebaseFunctions";
-import { products } from "utils/products";
+import { fetchUserData, setupDBListener } from "./utils/firebaseFunctions";
+import { products } from "./utils/products";
 function App() {
   const [user, loading] = useAuthState(auth);
   const [cartProducts, setCartProducts] = useState();

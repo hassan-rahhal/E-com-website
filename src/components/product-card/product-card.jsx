@@ -1,7 +1,7 @@
 import { useContext } from "react";
-import { MainContext } from "utils/context";
+import { MainContext } from "../../utils/context";
 import { useNavigate } from "react-router-dom";
-import { updateArrayData } from "utils/firebaseFunctions";
+import { updateArrayData } from "../../utils/firebaseFunctions";
 function ProductCard({ product }) {
   const { name, description, wasPrice, price, imageURL } = product;
   const navigate = useNavigate();

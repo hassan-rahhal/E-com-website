@@ -1,8 +1,8 @@
-import LogInForm from "components/login-form/login-form";
-import RegisterForm from "components/register-form/register-form";
+import LogInForm from "../components/login-form/login-form";
+import RegisterForm from "../components/register-form/register-form";
 import { useState, useContext, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { MainContext } from "utils/context";
+import { MainContext } from "../utils/context";
 
 function Authenticate() {
   const [registerMode, setRegisterMode] = useState(false);

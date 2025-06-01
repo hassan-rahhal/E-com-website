@@ -1,5 +1,5 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { isStoreSelected, isCartSelected } from "utils/checkRoutes";
+import { isStoreSelected, isCartSelected } from "../../../utils/checkRoutes";
 import { useContext } from "react";
 import { MainContext } from "utils/context";
 import { TailSpin } from "react-loader-spinner";

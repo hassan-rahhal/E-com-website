@@ -1,7 +1,7 @@
-import ProductCard from "components/product-card/product-card";
-import { products } from "utils/products";
+import ProductCard from "../components/product-card/product-card";
+import { products } from "../utils/products";
 import { useContext } from "react";
-import { MainContext } from "utils/context";
+import { MainContext } from "../utils/context";
 function Store() {
   const { user, loading, filteredProducts } = useContext(MainContext);
   return loading ? (

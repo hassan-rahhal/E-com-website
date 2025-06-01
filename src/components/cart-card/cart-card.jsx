@@ -1,5 +1,5 @@
 import { AiFillDelete } from "react-icons/ai";
-import { removeArrayData } from "utils/firebaseFunctions";
+import { removeArrayData } from "../../utils/firebaseFunctions";
 function CartCard({ product }) {
   const { imageURL, name, description, price } = product;
 
