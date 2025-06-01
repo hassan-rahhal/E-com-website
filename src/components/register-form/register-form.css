@@ -1,0 +1,36 @@
+.form {
+  max-width: 400px;
+  width: 100%;
+  padding: 40px 20px;
+  box-shadow: 0px 2px 70px 0px rgba(110, 130, 208, 0.18);
+  border-radius: 4px;
+}
+
+.form__title {
+  margin-bottom: 20px;
+}
+
+.form__group {
+  margin-bottom: 20px;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form__input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form__button {
+  width: 100%;
+}
+
+.form__error {
+  color: red;
+}
