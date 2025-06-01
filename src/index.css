@@ -5,6 +5,7 @@
 @import "./styles/authenticate.css";
 @import "./components/cart-card/cart-card.css";
 @import "./components/register-form/register-form.css";
+@import "./components/navbar/mobile-menu/mobile-menu.css";
 
 :root {
   --color-primary: #3b4142;
