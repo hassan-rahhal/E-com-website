@@ -1,3 +1,11 @@
+@import "./components/navbar/navbar.css";
+@import "./components/product-card/product-card.css";
+@import "./styles/store.css";
+@import "./styles/cart.css";
+@import "./styles/authenticate.css";
+@import "./components/cart-card/cart-card.css";
+@import "./components/register-form/register-form.css";
+
 :root {
   --color-primary: #3b4142;
   --color-secondary: #f9f8f9;
