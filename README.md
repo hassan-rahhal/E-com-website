@@ -1,12 +1,32 @@
-# React + Vite
+# 🛒 E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive e-commerce web application built using **React.js**. This project demonstrates real-world features such as product listing, shopping cart functionality, Firebase integration, and responsive navigation for both desktop and mobile views.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🛍️ Add/remove items from cart  
+- 🧾 Product detail cards  
+- 🔐 Firebase Authentication (Login / Logout system)  
+- 📦 Realtime data from Firebase Firestore  
+- ⚠️ Error handling for failed login, signup, and data fetch operations  
+- 📱 Responsive layout (mobile & desktop)  
+- ⚙️ Organized component structure  
 
-## Expanding the ESLint configuration
+### 🛒 Core E-Commerce Features
+- Browse product catalog with images, descriptions, and pricing
+- Add/remove products from the shopping cart
+- View cart item count dynamically
+- Responsive design with separate mobile and desktop views
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔐 Login System
+- Firebase Authentication (Email/Password)
+- Login & Logout with persistent user sessions
+
+### ⚠️ Error Handling
+- Form validation (empty fields, invalid email/password)
+- Firebase error feedback on login/signup failures
+- Graceful fallback for Firestore or network issues
+
+### 📊 Data Management
+- Firebase Firestore for realtime product and user data
+- Utility functions to handle Firestore operations
