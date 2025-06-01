@@ -8,6 +8,7 @@
   padding: 20px 30px;
   align-items: center;
   border-bottom: 2px solid hsla(0, 0%, 52.2%, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .navbar__left-side__logo__text {
